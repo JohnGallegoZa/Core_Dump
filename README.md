@@ -30,10 +30,12 @@ Para ejecutar el juego en su entorno local:
     python sS.py
     ```
 
+
 ## 👥 Equipo de Desarrollo
 * **Samuel Marroquín**
 * **María Camila Pradilla**
 * **John Gallego**
+
 
 
 ----
