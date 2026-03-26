@@ -31,7 +31,7 @@ Para ejecutar el juego en su entorno local:
     ```
 
 
-## 👥 Equipo de Desarrollo
+## 👥 Equipo de Desarrollo =)
 * **Samuel Marroquín**
 * **María Camila Pradilla**
 * **John Gallego**
