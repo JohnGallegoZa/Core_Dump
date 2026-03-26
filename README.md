@@ -34,7 +34,7 @@ Para ejecutar el juego en su entorno local:
 ## 👥 Equipo de Desarrollo =)
 * **Samuel Marroquín**
 * **María Camila Pradilla**
-* **John Gallego Zambrano**
+* **John  F Gallego Zambrano**
 
 ----
 *Proyecto académico para el curso de Programación Orientada a Objetos - Universidad de Medellín (2026-1).*
