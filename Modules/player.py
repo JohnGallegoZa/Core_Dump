@@ -24,4 +24,3 @@ class Player(Actor):
 
     def obtener_reporte(self) -> str:
         return f" {self.nombre} |  {self.integridad} % Integridad |  {self.energia}  Energía |  {self.bits} Bits"
-
