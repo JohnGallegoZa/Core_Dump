@@ -231,7 +231,7 @@ class BossBattleGame:
         # Efecto visual en el canvas del jefe (parpadeo)
         self.boss_canvas.itemconfig(1, fill="#3a1f0a")  # color restaurado
 
-
+#
 # --- Punto de entrada ---
 if __name__ == "__main__":
     root = tk.Tk()
