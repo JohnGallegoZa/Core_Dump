@@ -232,7 +232,7 @@ class BossBattleGame:
         self.boss_canvas.itemconfig(1, fill="#3a1f0a")  # color restaurado
 
 #
-# --- Punto de entrada ---
+# --- Punto de entrada ----
 if __name__ == "__main__":
     root = tk.Tk()
     game = BossBattleGame(root)
