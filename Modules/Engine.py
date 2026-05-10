@@ -30,7 +30,7 @@
 #             print("Saldo insuficiente, debes conseguir mas bits")
 #
 #     # ==========================================================
-#     # FUNCIONALIDAD 2 (SAMUEL MARROQUÍN): MECÁNICA DE COMBATE FINAL
+#     # FUNCIONALIDAD 2 (SAMUEL MARROQUÍN): MECÁNICA DE COMBATE FINAL-
 #     # ==========================================================
 #     def batalla_jefe(self):
 #         print(f"\n COMBATIENDO AL JEFE: {self.jefe_final.nombre}")
