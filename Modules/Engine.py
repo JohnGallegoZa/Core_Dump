@@ -169,7 +169,7 @@ class Engine:
             print("3. Tienda")
             print("4. Recargar (-15 vida, +40 energía)")
             print("5. Combatir Jefe")
-            print("6. Terminar juego")
+            print("6. Terminar juego ")
 
             try:
                 op = input("\nSeleccione acción: ")
@@ -217,3 +217,4 @@ class Engine:
 
 if __name__ == "__main__":
     Engine().jugar()
+
