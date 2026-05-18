@@ -215,6 +215,7 @@ class Engine:
         if not self.jugador.esta_vivo():
             print("\n SISTEMA COLAPSADO. PERDISTE EL JUEGO .")
 
+
 if __name__ == "__main__":
     Engine().jugar()
 
