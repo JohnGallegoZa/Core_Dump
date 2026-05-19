@@ -143,7 +143,7 @@ color:  # ff5555;
 id = "ui" >
      < div
 
-
+.
 class ="stat" > 💾 INTEGRIDAD: <
 
 
