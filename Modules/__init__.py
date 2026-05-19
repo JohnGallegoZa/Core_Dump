@@ -141,7 +141,7 @@ color:  # ff5555;
         < body >
         < div
 id = "ui" >
-     < div
+     < divH
 
 .
 class ="stat" > 💾 INTEGRIDAD: <
