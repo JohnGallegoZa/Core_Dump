@@ -183,7 +183,7 @@ class CoreDumpGUI:
         self.actualizar_pantalla()
 
         if not self.game.ejecutando:
-            messagebox.showinfo("🏆 VICTÓRIA DEL SISTEMA 🏆",
+            messagebox.showinfo("VICTÓRIA DEL SISTEMA",
                                 "¡Felicidades Administrador!\nEl GIGA_VIRUS fue purgado exitosamente del núcleo.")
             self.root.quit()
 
@@ -192,5 +192,3 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = CoreDumpGUI(root)
     root.mainloop()
-
-
