@@ -135,7 +135,7 @@ animation: pulse
 s
 infinite;
 color:  # ff5555;
-}
+}z
 < / style >
     < / head >
         < body >
