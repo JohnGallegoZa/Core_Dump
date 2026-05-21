@@ -167,7 +167,7 @@ class CoreDumpGUI:
 
     def ejecutar_reparar(self):
         resultado = self.game.reparar_sector()
-        self.flash_pantalla("#112244")  # Flash azul por reparación de software
+        self.flash_pantalla("#112244")
         self.log_consola(resultado)
         self.actualizar_pantalla()
 
