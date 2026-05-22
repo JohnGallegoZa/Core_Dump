@@ -216,6 +216,7 @@ class Engine:
             print("\n SISTEMA COLAPSADO. PERDISTE EL JUEGO .")
 
 
+
 if __name__ == "__main__":
     Engine().jugar()
 
