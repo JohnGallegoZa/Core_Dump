@@ -113,5 +113,44 @@
 #     Engine().jugar()
 
 
-
 # Codigo Samuel Alejandro:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
