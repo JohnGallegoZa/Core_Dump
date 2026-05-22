@@ -14,5 +14,4 @@ class GameObject(ABC):
 
     @abstractmethod
     def obtener_reporte(self) -> str:
-
         pass
