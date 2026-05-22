@@ -14,6 +14,5 @@ class GameObject(ABC):
 
     @abstractmethod
     def obtener_reporte(self) -> str:
-        """Obliga a todas las subclases a implementar su propio reporte."""
-        pass
 
+        pass
