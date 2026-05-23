@@ -6,7 +6,7 @@ class Engine:
         self.jugador = Player("Admin_User")
         self.sectores = [
             Sector("Kernel_Core", 25),
-            Sector("Firewall_Node", 50)
+            Sector("Firewall_Node-", 50)
         ]
         self.jefe_final = Boss("GIGA_VIRUS", 100)
         self.nivel_actual = 0
