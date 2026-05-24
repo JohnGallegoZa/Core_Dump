@@ -40,9 +40,9 @@ class Engine:
         return f"Compra exitosa: {self.parche_pro.nombre} añadido al morral."
     def reparar_sector(self) -> str:
         if self.nivel_actual >= len(self.sectores):
-            raise SistemaCompletadoException("Todos los sectores ya han sido reparados con éxito.")
+            raise SistemaCompletadoException("✅ Todos los sectores ya han sido reparados con éxito.")
         if not self.jugador.morral:
-            raise MorralVacioException("El morral está vacío. Compra un parche en la tienda.")
+            raise MorralVacioException("❌ El morral está vacío. Compra un parche en la tienda.")
         parche = self.jugador.morral.pop(0)
         sector_actual = self.sectores[self.nivel_actual]
         if parche.potencia > sector_actual.dificultad:
