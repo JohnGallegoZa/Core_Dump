@@ -8,7 +8,6 @@ from exceptions import (
     AllSectorsRepairedError
 )
 
-
 class Engine:
     def __init__(self):
         self.jugador = Player("Admin_User")
