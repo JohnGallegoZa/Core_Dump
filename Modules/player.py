@@ -14,7 +14,7 @@
 
 from actor import Actor
 from item import Item
-#
+
 class Player(Actor):
     def __init__(self, nombre: str):
         super().__init__(nombre, 100)
@@ -24,3 +24,4 @@ class Player(Actor):
 
     def obtener_reporte(self) -> str:
         return f" {self.nombre} |  {self.integridad} % Integridad |  {self.energia}  Energía |  {self.bits} Bits"
+
