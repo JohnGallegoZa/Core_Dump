@@ -26,3 +26,14 @@ class Actor(GameObject):
     @abstractmethod
     def obtener_reporte(self) -> str:
         pass
+
+class Player(Actor):
+    def __init__(self, nombre: str):
+        super().__init__(nombre, integridad=100)
+        self.energia: int = 50
+        self.bits: int = 0
+        self.morral: list[Item] = []
+
+    def obtener_reporte(self) -> str:
+        return f"Jugador: {self.nombre} | Integridad: {self.integridad}% | Energía: {self.energia} | Bits: {self.bits}"
+
