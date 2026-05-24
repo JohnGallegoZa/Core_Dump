@@ -37,3 +37,15 @@ class Player(Actor):
     def obtener_reporte(self) -> str:
         return f"Jugador: {self.nombre} | Integridad: {self.integridad}% | Energía: {self.energia} | Bits: {self.bits}"
 
+class Boss(Actor):
+    def __init__(self, nombre: str, escudo: int):
+        super().__init__(nombre, integridad=100)
+        self.escudo: int = escudo
+
+    def recibir_danio(self, cantidad: int):
+        self.escudo -= cantidad
+        if self.escudo < 0:
+            self.escudo = 0
+
+    def obtener_reporte(self) -> str:
+        return f"JEFE: {self.nombre} | Escudo: {self.escudo}"
