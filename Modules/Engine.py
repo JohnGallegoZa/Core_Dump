@@ -64,7 +64,7 @@ class Engine:
             return "El GIGA VIRUS ya ha sido eliminado. ¡El sistema está a salvo!"
         if not self.jugador.morral:
             self.jugador.integridad = max(0, self.jugador.integridad - 20)
-            raise MorralVacioException("¡Sin herramientas en el morral! Recibiste 20 de daño directo del jefe.")
+            raise MorralVacioException("-¡Sin herramientas en el morral! Recibiste 20 de daño directo del jefe.")
         ataque = self.jugador.morral.pop(0)
         self.jefe_final.recibir_danio(ataque.potencia)
         if self.jefe_final.integridad <= 0 and self.jefe_final.escudo == 0:
