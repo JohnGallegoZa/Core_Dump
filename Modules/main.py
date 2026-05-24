@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 from Engine import Engine
 
+
 class CoreDumpGUI:
     def __init__(self, root):
         self.game = Engine()

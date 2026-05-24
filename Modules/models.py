@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from interfaces import GameObject
+from abc import ABC, abstractmethod
 
 @dataclass
 class Sector:
