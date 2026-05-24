@@ -10,4 +10,4 @@
 #
 #     def obtener_reporte(self) -> str:
 #         return f" {self.nombre} | Escudo: {self.escudo}"
-
+#
