@@ -8,4 +8,4 @@
 #
 #     def obtener_reporte(self) -> str:
 #         return f"[ITEM] {self.nombre} (Poder: {self.potencia})"
-
+#

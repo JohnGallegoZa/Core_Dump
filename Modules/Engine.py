@@ -1,6 +1,7 @@
-# Codigo Samuel Alejandro:
 import random
 from models import Player, Boss, Sector, Item
+
+
 class Engine:
     def __init__(self):
         self.jugador = Player("Admin_User")
@@ -12,6 +13,7 @@ class Engine:
         self.nivel_actual = 0
         self.ejecutando = True
         self.parche_pro = Item("Parche_Ultra", potencia=70, precio=35)
+
     def explorar(self) -> str:
         if self.jugador.energia < 5:
             return "No tienes suficiente energía para explorar (Mínimo 5)."
