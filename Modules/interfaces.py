@@ -9,3 +9,7 @@ class Reportable(Protocol):
 class GameObject(ABC):
     def __init__(self, nombre: str):
         self.nombre: str = nombre
+
+    @abstractmethod
+    def obtener_reporte(self) -> str:
+        pass
