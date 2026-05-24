@@ -6,3 +6,6 @@ class Reportable(Protocol):
     def obtener_reporte(self) -> str:
         ...
 
+class GameObject(ABC):
+    def __init__(self, nombre: str):
+        self.nombre: str = nombre
