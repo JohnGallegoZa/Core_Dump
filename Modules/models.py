@@ -1,6 +1,7 @@
 from dataclasses import dataclass
-from interfaces import GameObject
 from abc import ABC, abstractmethod
+from interfaces import GameObject
+
 
 @dataclass
 class Sector:
@@ -8,16 +9,16 @@ class Sector:
     dificultad: int
 
 class Item(GameObject):
-    def __init__(self, nombre: str, potencia: int, precio: int = 0):
+    def __init__(self, nombre: str, potencia: int, precio: int):
         super().__init__(nombre)
         self.potencia: int = potencia
         self.precio: int = precio
 
     def obtener_reporte(self) -> str:
-        return f"[ITEM] {self.nombre} (Poder: {self.potencia})"
+        return f"[ITEM] {self.nombre} (Poder: {self.potencia} | Precio: {self.precio})"
 
 class Actor(GameObject):
-    def __init__(self, nombre: str, integridad: int):
+    def __init__(self, nombre: str, integridad: int ):
         super().__init__(nombre)
         self.integridad: int = integridad
 
